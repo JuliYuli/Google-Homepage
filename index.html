@@ -1,27 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<link href="stylesheet.css" rel="stylesheet">
 
 <head>
-    <meta charset= "utf-8">
+    <meta charset= "UTF-8">
     <meta name= "author" content= "Yuliana Pereginets">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name= "description" content= "Google Homepage Reconstruction">
-    <link ref="stylesheet" >
-    <title>Google Home Page Replica</title>  
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Google Homepage Replica</title>
 </head>
 
 <body>
-    <div id="viewport">
-    <div class="header 1">
-    <header>
-            <ul>
-                <a class="signin" href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/%3Fgws_rd%3Dssl"></a>
-                <li class="apps"><a href="https://www.google.is/intl/en/about/products?tab=wh"><img alt="Gapps" src="gappslogo.png" height="24px"></a></li>
-            </ul>
-
-    </header>
-
+    <div id="navbar">
+        <a href="#" id="about">About</a>
+        <a href="#" id="store">Store</a>
+        <a href="#" id="gmail">Gmail</a>
+        <a href="#" id="images">Images</a>
+        <a href="#" id="menu"><img src="apps.png" height="16px" width="16px"></a>
+        <a href="#" id="sign-in">Sign In</a>
+    </div>
+    <div id="main">
+        <a href="#" id="logo"><img src="google.png" height="80px"></a>
+        <input type="text" id="search">
+        <div id="flexbox">
+            <button id="google-search">Google Search <button id="IFL">I'm Feeling Lucky</button>
+        </div>
+        <p id="google-text">Develop skills for high-demand jobs with new <a href="#" id=GCC>Google Career Certificates</a></p> 
+    </div>
+    <div id="footer">
+    <a href="#" id="advertising">Advertising</a>
+    <a href="#" id="business">Business</a>
+    <a href="#" id="hsw">How Search Works</a>
+    <a href="#" id="privacy">Privacy</a>
+    <a href="#" id="terms">Terms</a>
+    <a href="#" id="settings">Settings</a>
     </div>
 </body>
-
 </html>
